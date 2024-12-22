@@ -6,7 +6,7 @@ const randomReturn = array => {
 // Define parts of the sentences
 spacePart = ['The weather', 'The time', 'The group', 'The house']
 timePart = ['was', 'is', 'will be']
-mood = ['good', 'bad']
+mood = ['good', 'bad', 'delightful']
 
 // Generate messages
 console.log(`${randomReturn(spacePart)} ${randomReturn(timePart)} ${randomReturn(mood)}`)
